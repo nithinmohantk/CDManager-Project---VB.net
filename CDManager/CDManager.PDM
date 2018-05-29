@@ -1,0 +1,571 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+Most Recent Deploy=CDMan Setup
+
+
+[Package|pack|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=G:\Backup\Nithin\Works\CDManager\Temp
+
+[Package|pack|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=Yes
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|pack|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|pack|Files Found]
+
+[Package|pack|Files Released]
+
+[Package|pack|Missing Dependency Information]
+E:\Development\Microsoft\Visual Ctudio 6.0\VIntDev98\bin\GRIDDTC.OCX=
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\FLEXWIZ.OCX=
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.ocx=
+C:\WINDOWS\system32\dmocx.dll=
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.ocx=
+C:\WINDOWS\system32\plugin.ocx=
+C:\WINDOWS\pchealth\helpctr\binaries\msinfo.dll=
+C:\Program Files\Java\j2re1.5.0\bin\JavaWebStart.dll=
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\Tools\APE\REGTOOL5.DLL=
+E:\Development\Microsoft\Visual Studio .NET 2K2\Common7\Controls\msbind.dll=
+C:\Program Files\Internet Explorer\Connection Wizard\trialoc.dll=
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\IDE\IDE98\DTE.TLB=
+C:\Program Files\Common Files\Designer\MSCONDES.DLL=
+C:\WINDOWS\system32\themeui.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\WINDOWS\system32\regwizc.dll=
+
+[Package|pack|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\CRYSTL32.OCX=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|pack|Files Added]
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\CTGRID.oca=
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.lic=
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.hlp=
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.oca=
+G:\Backup\Nithin\Works\CDManager\DB\CDMANDB_1.mdb=
+
+[Package|pack|Files Removed]
+
+[Package|pack|Files In Project]
+G:\Backup\Nithin\Works\CDManager\CDManager.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\regwizc.dll=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\themeui.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Common Files\System\ado\msador15.dll=Yes
+C:\Program Files\Common Files\Designer\MSCONDES.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\IDE\IDE98\DTE.TLB=Yes
+C:\Program Files\Internet Explorer\Connection Wizard\trialoc.dll=Yes
+E:\Development\Microsoft\Visual Studio .NET 2K2\Common7\Controls\msbind.dll=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\Tools\APE\REGTOOL5.DLL=Yes
+C:\WINDOWS\system32\REGOBJ.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado15.dll=Yes
+C:\WINDOWS\system32\MSCDRUN.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\odbc32.dll=Yes
+C:\Program Files\Java\j2re1.5.0\bin\JavaWebStart.dll=Yes
+C:\WINDOWS\pchealth\helpctr\binaries\msinfo.dll=Yes
+C:\WINDOWS\system32\plugin.ocx=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\dmocx.dll=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.ocx=Yes
+C:\WINDOWS\system32\CRYSTL32.OCX=Yes
+C:\WINDOWS\system32\CRPE32.DLL=Yes
+C:\WINDOWS\system32\IMPLODE.DLL=Yes
+C:\WINDOWS\system32\PG32.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\WINDOWS\Crystal\CRXLAT32.DLL=Yes
+C:\WINDOWS\system32\P2BBND.DLL=Yes
+C:\WINDOWS\system32\P2BDAO.DLL=Yes
+C:\WINDOWS\system32\P2CTDAO.DLL=Yes
+C:\WINDOWS\system32\P2IRDAO.DLL=Yes
+C:\WINDOWS\system32\P2SODBC.DLL=Yes
+C:\WINDOWS\Crystal\U2DDISK.DLL=Yes
+C:\WINDOWS\Crystal\U2DMAPI.DLL=Yes
+C:\WINDOWS\Crystal\U2FCR.DLL=Yes
+C:\WINDOWS\Crystal\U2FDIF.DLL=Yes
+C:\WINDOWS\Crystal\U2FHTML.DLL=Yes
+C:\WINDOWS\Crystal\U2FREC.DLL=Yes
+C:\WINDOWS\Crystal\U2FRTF.DLL=Yes
+C:\WINDOWS\Crystal\U2FSEPV.DLL=Yes
+C:\WINDOWS\Crystal\U2FTEXT.DLL=Yes
+C:\WINDOWS\Crystal\U2FWKS.DLL=Yes
+C:\WINDOWS\Crystal\U2FWORDW.DLL=Yes
+C:\WINDOWS\Crystal\U2FXLS.DLL=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\FLEXWIZ.OCX=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VIntDev98\bin\GRIDDTC.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\CTGRID.oca=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.lic=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.hlp=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.oca=Yes
+G:\Backup\Nithin\Works\CDManager\DB\CDMANDB_1.mdb=Yes
+
+[Package|pack|Configure Registry Files]
+Applicable=
+
+[Package|pack|Configure Remote Servers]
+Applicable=
+
+[Package|pack|Install Locations]
+G:\Backup\Nithin\Works\CDManager\CDManager.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\regwizc.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\themeui.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msador15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Common Files\Designer\MSCONDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\IDE\IDE98\DTE.TLB=$(WinSysPath)
+C:\Program Files\Internet Explorer\Connection Wizard\trialoc.dll=$(WinSysPath)
+E:\Development\Microsoft\Visual Studio .NET 2K2\Common7\Controls\msbind.dll=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\Tools\APE\REGTOOL5.DLL=$(WinSysPath)
+C:\WINDOWS\system32\REGOBJ.DLL=$(AppPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Java\j2re1.5.0\bin\JavaWebStart.dll=$(WinSysPath)
+C:\WINDOWS\pchealth\helpctr\binaries\msinfo.dll=$(WinSysPath)
+C:\WINDOWS\system32\plugin.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\dmocx.dll=$(WinSysPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CRYSTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CRPE32.DLL=$(WinSysPath)
+C:\WINDOWS\system32\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\PG32.DLL=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\WINDOWS\system32\P2BBND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2BDAO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2CTDAO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2IRDAO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2SODBC.DLL=$(WinSysPath)
+C:\WINDOWS\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VIntDev98\bin\GRIDDTC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\CTGRID.oca=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.lic=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.hlp=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.oca=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\DB\CDMANDB_1.mdb=$(AppPath)
+
+[Package|pack|Configure Shared Files]
+Applicable=
+
+[Package|pack|DepFile]
+DepCabFile=CDManager.CAB
+DepCabRun=CDManager.INF
+
+[Package|pack|Package]
+PackageFolder=G:\Backup\Nithin\Works\CDManager\Temp
+ProjectFolder=G:\Backup\Nithin\Works\CDManager
+ServerSideCab=
+File1=G:\Backup\Nithin\Works\CDManager\Temp\CDManager.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|CDMan Setup|Root]
+Package=pack
+Handler=PDWizard.FolderDplySubWiz
+Folder=G:\Backup\Nithin\Works\Temp
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\Backup\Nithin\Works\CDManager\Temp
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=Yes
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+cdmandb_1.mdb=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\Development\Microsoft\Visual Ctudio 6.0\VIntDev98\bin\GRIDDTC.OCX=
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\FLEXWIZ.OCX=
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.ocx=
+C:\WINDOWS\system32\dmocx.dll=
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.ocx=
+C:\WINDOWS\system32\plugin.ocx=
+C:\WINDOWS\pchealth\helpctr\binaries\msinfo.dll=
+C:\Program Files\Java\j2re1.5.0\bin\JavaWebStart.dll=
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\Tools\APE\REGTOOL5.DLL=
+E:\Development\Microsoft\Visual Studio .NET 2K2\Common7\Controls\msbind.dll=
+C:\Program Files\Internet Explorer\Connection Wizard\trialoc.dll=
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\IDE\IDE98\DTE.TLB=
+C:\Program Files\Common Files\Designer\MSCONDES.DLL=
+C:\WINDOWS\system32\themeui.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\WINDOWS\system32\regwizc.dll=
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\CRYSTL32.OCX=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\Msflxgrd.ocx=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\msbind.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+g:\backup\nithin\works\cdmanager\activex\ctgrid\ctgrid.oca=
+g:\backup\nithin\works\cdmanager\activex\ctgrid\ctgrid.lic=
+g:\backup\nithin\works\cdmanager\activex\ctgrid\ctgrid.hlp=
+g:\backup\nithin\works\cdmanager\activex\regcontrol\regctl.oca=
+cdmandb_1.mdb=
+G:\Backup\Nithin\Works\CDManager\CDMANDB.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+g:\backup\nithin\works\cdmanager\activex\ctgrid\ctgrid.hlp=
+g:\backup\nithin\works\cdmanager\activex\ctgrid\ctgrid.lic=
+g:\backup\nithin\works\cdmanager\activex\ctgrid\ctgrid.oca=
+c:\windows\system32\javawebstart.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+G:\Backup\Nithin\Works\CDManager\CDManager.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\themeui.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\IDE\IDE98\DTE.TLB=Yes
+C:\WINDOWS\system32\REGOBJ.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\CRYSTL32.OCX=Yes
+C:\WINDOWS\system32\CRPE32.DLL=Yes
+C:\WINDOWS\system32\IMPLODE.DLL=Yes
+C:\WINDOWS\system32\PG32.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\WINDOWS\Crystal\CRXLAT32.DLL=Yes
+C:\WINDOWS\system32\P2BBND.DLL=Yes
+C:\WINDOWS\system32\P2BDAO.DLL=Yes
+C:\WINDOWS\system32\P2CTDAO.DLL=Yes
+C:\WINDOWS\system32\P2IRDAO.DLL=Yes
+C:\WINDOWS\system32\P2SODBC.DLL=Yes
+C:\WINDOWS\Crystal\U2DDISK.DLL=Yes
+C:\WINDOWS\Crystal\U2DMAPI.DLL=Yes
+C:\WINDOWS\Crystal\U2FCR.DLL=Yes
+C:\WINDOWS\Crystal\U2FDIF.DLL=Yes
+C:\WINDOWS\Crystal\U2FHTML.DLL=Yes
+C:\WINDOWS\Crystal\U2FREC.DLL=Yes
+C:\WINDOWS\Crystal\U2FRTF.DLL=Yes
+C:\WINDOWS\Crystal\U2FSEPV.DLL=Yes
+C:\WINDOWS\Crystal\U2FTEXT.DLL=Yes
+C:\WINDOWS\Crystal\U2FWKS.DLL=Yes
+C:\WINDOWS\Crystal\U2FWORDW.DLL=Yes
+C:\WINDOWS\Crystal\U2FXLS.DLL=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\CTGRID.oca=No
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.lic=No
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.hlp=No
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.oca=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\MSCONDES.DLL=Yes
+C:\WINDOWS\system32\msbind.dll=Yes
+C:\WINDOWS\system32\REGTOOL5.DLL=Yes
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=Yes
+C:\WINDOWS\system32\JavaWebStart.dll=No
+G:\NVB Project\JewelBox VB_bak\ActiveX\RegControl\RegCtl.ocx=Yes
+G:\Backup\Nithin\Works\CDManager\CDMANDB.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+G:\Backup\Nithin\Works\CDManager\CDManager.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\regwizc.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\themeui.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msador15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Common Files\Designer\MSCONDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\IDE\IDE98\DTE.TLB=$(WinSysPath)
+C:\Program Files\Internet Explorer\Connection Wizard\trialoc.dll=$(WinSysPath)
+E:\Development\Microsoft\Visual Studio .NET 2K2\Common7\Controls\msbind.dll=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\Common\Tools\APE\REGTOOL5.DLL=$(WinSysPath)
+C:\WINDOWS\system32\REGOBJ.DLL=$(AppPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\Program Files\Java\j2re1.5.0\bin\JavaWebStart.dll=$(WinSysPath)
+C:\WINDOWS\pchealth\helpctr\binaries\msinfo.dll=$(WinSysPath)
+C:\WINDOWS\system32\plugin.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\dmocx.dll=$(WinSysPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CRYSTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CRPE32.DLL=$(WinSysPath)
+C:\WINDOWS\system32\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\PG32.DLL=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\WINDOWS\system32\P2BBND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2BDAO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2CTDAO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2IRDAO.DLL=$(WinSysPath)
+C:\WINDOWS\system32\P2SODBC.DLL=$(WinSysPath)
+C:\WINDOWS\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VIntDev98\bin\GRIDDTC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\CTGRID.oca=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.lic=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.hlp=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.oca=$(AppPath)
+G:\Backup\Nithin\Works\CDManager\DB\CDMANDB_1.mdb=$(AppPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\MSCONDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\REGTOOL5.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=$(WinSysPath)
+C:\WINDOWS\system32\JavaWebStart.dll=$(WinSysPath)
+G:\NVB Project\JewelBox VB_bak\ActiveX\RegControl\RegCtl.ocx=$(WinSysPath)
+G:\Backup\Nithin\Works\CDManager\CDMANDB.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+G:\Backup\Nithin\Works\CDManager\CDManager.exe=No
+C:\WINDOWS\system32\REGOBJ.DLL=Yes
+E:\Development\Microsoft\Visual Ctudio 6.0\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\CTGRID.oca=No
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.lic=No
+G:\Backup\Nithin\Works\CDManager\ActiveX\CTGrid\ctGrid.hlp=No
+G:\Backup\Nithin\Works\CDManager\ActiveX\RegControl\RegCtl.oca=Yes
+G:\Backup\Nithin\Works\CDManager\DB\CDMANDB_1.mdb=No
+G:\Backup\Nithin\Works\CDManager\CDMANDB.mdb=No
+
+[Package|Standard Setup Package 1|DepFile]
+DepCabFile=CDManager.CAB
+DepCabRun=CDManager.INF
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=My Personal CDManager
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=My Personal CDManager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|My Personal CDManager]
+Icon1=CDManager.exe
+Title1=My Personal CDManager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=G:\Backup\Nithin\Works\CDManager\Temp
+ProjectFolder=G:\Backup\Nithin\Works\CDManager
+ServerSideCab=
+File1=G:\Backup\Nithin\Works\CDManager\Temp\setup.exe
+File2=G:\Backup\Nithin\Works\CDManager\Temp\Setup.Lst
+File3=G:\Backup\Nithin\Works\CDManager\Temp\CDManager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
