@@ -8,8 +8,7 @@ your CDRoms..
 
 For feedback/help email nithinmohantk@gmail.com
 
-Created by Nithin Mohan.T.K © 2005
+Created by Nithin Mohan.T.K Â© 2005
 
-© 2002 - 2005 Dream Works Technologies India Ltd
+Â© 2002 - 2005 Nithin Mohan.T.K
 
-WebSite : http://www.dreamworksindia.co.nr
